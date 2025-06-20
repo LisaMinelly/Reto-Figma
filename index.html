@@ -1,0 +1,149 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-M">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mino</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <header class="hero-section">
+        <div class="header-content">
+            <div class="login-card">
+                <div class="login-header">
+                    <img src="img/perfil.png" alt="Profile Icon" class="profile-icon">
+                </div>
+
+                <input type="radio" name="login-tab" id="tab-registro" checked class="tab-input">
+                <input type="radio" name="login-tab" id="tab-inicio-sesion" class="tab-input">
+
+                <div class="tab-container">
+                    <label for="tab-registro" class="tab-label">Registro</label>
+                    <label for="tab-inicio-sesion" class="tab-label">Inicio de sesión</label>
+                    <div class="tab-active-bar"></div>
+                </div>
+
+                <div id="content-registro" class="tab-pane">
+                    <form> <div class="input-group">
+                            <label for="email-registro">Correo electrónico</label>
+                            <input type="email" id="email-registro" placeholder="ejemplo@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label for="nombre-registro">Nombre completo</label>
+                            <input type="text" id="nombre-registro" placeholder="Juan">
+                        </div>
+                        <div class="input-group">
+                            <label for="telefono-registro">Número de teléfono</label>
+                            <input type="number" id="telefono-registro" placeholder="3006955714">
+                        </div>
+                        <div class="input-group">
+                            <label for="password-registro">Contraseña</label>
+                            <input type="password" id="password-registro" placeholder="Ingresa tu contraseña">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                        <p class="switch-form">¿Ya tienes cuenta? <label for="tab-inicio-sesion" class="switch-link">Inicia sesión aquí.</label></p>
+                    </form>
+                </div>
+
+                <div id="content-inicio-sesion" class="tab-pane">
+                    <form> <div class="input-group">
+                            <label for="email-login">Correo electrónico</label>
+                            <input type="email" id="email-login" placeholder="ejemplo@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label for="password-login">Contraseña</label>
+                            <input type="password" id="password-login" placeholder="Ingresa tu contraseña">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                        <a href="#<!DOCTYPE html>" class="forgot-password">¿Olvidaste la contraseña?</a>
+                        <p class="switch-form">¿No tienes cuenta? <label for="tab-registro" class="switch-link">Regístrate aquí.</label></p>
+                    </form>
+                </div>
+        </div>
+
+            <div class="hero-right-content">
+                <img src="img/logo-mino.png" alt="MinoRista Logo" class="minorista-logo">
+            </div>
+        </div>
+
+        <div class="promo-bar">
+            <p>¿Nuevo en Mino? ¡Regístrate ahora y disfruta de 15 días de entrega gratis!</p>
+            <button class="btn-promo">Regístrarme</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="experience-section">
+            <div class="experience-content-wrapper">
+                <div class="experience-image-container">
+                    <img src="img/compradores.png" alt="Pareja comprando en el supermercado" class="experience-image">
+                    <img src="img/carrito.png" alt="Icono de carrito de compras" class="shopping-cart-icon">
+                </div>
+            <div class="experience-text-container">
+                <h2>Buscamos entregar siempre las mejores experiencias a nuestros clientes.</h2>
+            </div>
+        </div>
+        </section>
+        <section class="work-with-us-section">
+            <div class="work-content-card">
+                <h2>Trabaja con nosotros</h2>
+            <div class="work-image-container">
+                <img src="img/tendero.png" alt="Hombre sonriendo en una tienda" class="work-image">
+            </div>
+                <p>Expande tu alcance y atrae más clientes locales con nuestra app. Facilita sus compras diarias y haz crecer tu negocio. ¡Únete a nuestra plataforma y destaca en tu común!</p>
+                <button class="btn btn-tertiary">Registrarme</button>
+            </div>
+            <div class="cityscape-image-container">
+            <img src="img/ciudad.png" alt="Paisaje urbano de la ciudad" class="cityscape-image">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Categorías</h3>
+                <ul>
+                    <li><a href="#">Catálogo de productos</a></li>
+                    <li><a href="#">Promociones y ofertas</a></li>
+                    <li><a href="#">Recomendaciones</a></li>
+                    <li><a href="#">Incrementa tus ventas</a></li>
+                    <li><a href="#">Registra tu local virtual</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Sobre nosotros</h3>
+                <ul>
+                    <li><a href="#">¿Quiénes somos?</a></li>
+                    <li><a href="#">Trabaja con nosotros</a></li>
+                    <li><a href="#">Aliados</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Soporte</h3>
+                <ul>
+                    <li><a href="#">Centro de ayuda</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Políticas de privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-column footer-description">
+                <img src="img/logo-mino.png" alt="Mino Logo" class="footer-logo">
+                <p>Mino ofrece una solución completa para gestionar pedidos entre usuarios y tiendas. Desde facilitar la compra de productos para los usuarios hasta herramientas para negocios, proporcionamos herramientas avanzadas diseñadas para mejorar la eficiencia y maximizar el crecimiento online.</p>
+            </div>
+        </div>
+        <div class="footer-social-bar">
+            <div class="social-icons">
+                <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="img/likedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="img/wpp.png" alt="WhatsApp"></a>
+                <a href="#"><img src="img/x.png" alt="X (Twitter)"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
